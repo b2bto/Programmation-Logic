@@ -13,11 +13,18 @@
 */
 
 function palindromo(texto){
-    let invertido = texto.split('');
-    console.log(invertido)
+    let invertido = texto
+                    .split('') // primero separamos el array por letras esto hace la funcion .split()
+                    .reverse() // revierte o le da la vuelta al array. 
+                    .join('') // Une nuevamente en un solo texto el array.
+                    ; 
+    if (invertido === texto ){ // el triple igual ayuda acomparar que sea el mismo dato y tipo de dato 
+        return true;
+    }else{
+        return false;
+    }
 }
-palindromo("otto");
-
+console.log('¿Es un palindromo? '+ palindromo('otto'));
 
 
 

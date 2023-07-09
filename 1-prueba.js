@@ -25,7 +25,6 @@ Como hacerlo?
 - Bucle del 1 al 10
 concatenar la variable string con la multiplicacion y el resultado
 */
-
 function tabla_multiplicar(n){
 //    let resultado = "# Tabla del "+n+"#"; esta es una manera de concatenar 
     let resultado = `# Tabla del ${n} \n`; //esta es una manera de concatenar
@@ -38,5 +37,3 @@ function tabla_multiplicar(n){
       
 }
 console.log(tabla_multiplicar(3)); // aqui mostraremos el resultado de la funcion que se debera ver asi: # Tabla del 3 1 x 3 = 3 2 x 3 = 6 3 x 3 = 9 4 x 3 = 12 5 x 3 = 15 6 x 3 = 18 7 x 3 = 21 8 x 3 = 24 9 x 3 = 27 10 x 3 = 30
-
-
