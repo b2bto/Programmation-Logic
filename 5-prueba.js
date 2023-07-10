@@ -15,4 +15,4 @@ function porcentaje(porcien, numero){
     let resultado= ((porcien*numero)/100);
     return resultado;
 }
-console.log(`El porcentaje es: ${porcentaje(19,119)}`);
+console.log(`El porcentaje es: ${porcentaje(43,897)}`);
